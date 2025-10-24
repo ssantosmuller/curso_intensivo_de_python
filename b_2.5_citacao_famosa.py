@@ -1,0 +1,1 @@
+print("Jesus disse: Amai-vos uns aos outros")
