@@ -1,0 +1,10 @@
+car = ['Gotaria de ter uma moto Honda.', 'Um patinete é legal.', 'As motos são como JetSky.']
+print(car)
+print("Minha lista tem um total de " + str(len(car)) + " itens.")
+print("Esse é o item 1: " + str(car[0])+ " Ele tem " + str(len(car[0])) + " letras digitadas.")
+print("Esse é o item 2: " + str(car[1])+ " Ele tem " + str(len(car[1])) + " letras digitadas.")
+print("Esse é o item 3: " + str(car[2])+ " Ele tem " + str(len(car[2])) + " letras digitadas.")
+print("\n")
+print("Este é o último item da lista: " + str(car[-1]))
+print("Este é o penúltimo item da lista: " + str(car[-2]))
+print("Este é o antepenúltimo item da lista: " + str(car[-3]))
