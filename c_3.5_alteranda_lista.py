@@ -1,0 +1,11 @@
+lista_convidados = ['laura', 'jesus cristo', 'sócrates']
+print(lista_convidados)
+print("Olá, " + str(lista_convidados[0].title()) + str(". Vamos jantar sábado a noite?"))
+print("Olá, " + str(lista_convidados[1].title()) + str(". Vamos jantar sábado a noite?"))
+print("Olá, " + str(lista_convidados[2].title()) + str(". Vamos jantar sábado a noite?"))
+print("Tivemos um problema e",(lista_convidados.pop(2).title()), ("não poderá comparecer. Vamos convidar Platão."))
+lista_convidados.insert(2, 'platão')
+print(lista_convidados)
+print("Olá, " + str(lista_convidados[0].title()) + str(". Vamos jantar sábado a noite?"))
+print("Olá, " + str(lista_convidados[1].title()) + str(". Vamos jantar sábado a noite?"))
+print("Olá, " + str(lista_convidados[2].title()) + str(". Vamos jantar sábado a noite?"))
