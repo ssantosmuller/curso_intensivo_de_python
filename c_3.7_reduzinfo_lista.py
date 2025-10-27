@@ -19,3 +19,14 @@ print("Olá, " + str(lista_convidados[2].title()) + str(". Vamos jantar sábado 
 print("Olá, " + str(lista_convidados[3].title()) + str(". Vamos jantar sábado a noite?"))
 print("Olá, " + str(lista_convidados[4].title()) + str(". Vamos jantar sábado a noite?"))
 print("Olá, " + str(lista_convidados[5].title()) + str(". Vamos jantar sábado a noite?"))
+print("Tive um problema e a mesa não chegará a tempo. Preciso reduziar a lista a dois convidados somente.")
+print("Sinto muito", lista_convidados.pop(5).title(), "preciso cancelar o jantar")
+print(lista_convidados)
+print("Sinto muito", lista_convidados.pop(0).title(), "preciso cancelar o jantar")
+print("Sinto muito", lista_convidados.pop(1).title(), "preciso cancelar o jantar")
+print("Sinto muito", lista_convidados.pop(2).title(), "preciso cancelar o jantar")
+print(str(lista_convidados[0].title()) +", o jantar continua  de pé sábado.")
+print(str(lista_convidados[1].title()) + ", o jantar continua  de pé sábado.")
+del lista_convidados[0]
+del lista_convidados[0]
+print(lista_convidados)
