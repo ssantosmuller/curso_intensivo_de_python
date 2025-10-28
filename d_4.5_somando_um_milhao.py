@@ -1,0 +1,5 @@
+milhao = list(range(1, 1000001))
+print(milhao)
+#print(min(milhao))
+#print(max(milhao))
+#print(sum(milhao))
