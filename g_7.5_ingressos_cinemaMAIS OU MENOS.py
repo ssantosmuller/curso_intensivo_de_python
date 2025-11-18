@@ -1,3 +1,4 @@
+"""
 idade = int(input("DIgite sua idade: "))
 print("Sua idade é", idade)
 while idade > 0:
@@ -10,3 +11,4 @@ while idade > 0:
     elif idade > 12:
         print("Paga $15")
         break
+"""
